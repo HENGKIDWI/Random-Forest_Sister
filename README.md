@@ -36,9 +36,10 @@ Pastikan Python 3.9+ sudah terinstall. Install library yang dibutuhkan:
 
 ```bash
 pip install fastapi uvicorn pandas scikit-learn requests python-multipart
+```bash
 
-
-# **running**
+## Running*
+```bash
 uvicorn coordinator:app --port 8000
 uvicorn param_server:app --port 8001
 uvicorn inference:app --port 8004
